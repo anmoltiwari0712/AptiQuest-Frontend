@@ -70,7 +70,7 @@ const Contributors = () => {
             />
             <h3 className="name-head ">{contributor.name}</h3>
 
-            <p>{contributor.profile1}</p>
+            <h6>{contributor.profile1}</h6>
             <p>{contributor.profile2}</p>
 
     
