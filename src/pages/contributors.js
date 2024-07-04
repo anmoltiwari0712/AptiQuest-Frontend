@@ -40,7 +40,7 @@ const contributors = [
 
     profile1: "Back-end Developer | Deployment Expert",
     profile2:
-      "Specializes in robust backend solutions and efficient deployment strategies for scalable applications.",
+      "Specializes in robust backend solutions and efficient deployment strategies for applications.",
 
     image: vishalimg, // Use imported local image
     social: {
