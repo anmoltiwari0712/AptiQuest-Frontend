@@ -63,8 +63,6 @@ const Home = () => {
         );
       } catch (error) {
         console.error("Error fetching progress data:", error);
-      }finally { 
-        setLoading(false); // Set loading to false after fetching data
       }
     };
 
