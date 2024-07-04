@@ -23,7 +23,7 @@ const contributors = [
     profile2:
       "Enthusiastic about creating engaging user interfaces and enhancing front-end experiences.",
 
-    profile: "Software Engineer with a passion for open-source projects.",
+
 
     image: anmolimg, // Use imported local image
     social: {
@@ -41,8 +41,6 @@ const contributors = [
     profile1: "Back-end Developer | Deployment Expert",
     profile2:
       "Specializes in robust backend solutions and efficient deployment strategies for scalable applications.",
-
-    profile: "Front-end Developer and UI/UX enthusiast.",
 
     image: vishalimg, // Use imported local image
     social: {
@@ -75,7 +73,7 @@ const Contributors = () => {
             <p>{contributor.profile1}</p>
             <p>{contributor.profile2}</p>
 
-            <p>{contributor.profile}</p>
+    
 
             <div className="social-icons">
               <a
