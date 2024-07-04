@@ -10,7 +10,7 @@ const Contact = () => {
     const form = e.target;
     const formData = new FormData(form);
 
-    fetch("https://formspree.io/f/xldrrojb", {
+    fetch("https://formspree.io/f/mldrepey", {
       method: "POST",
       body: formData,
       headers: {
