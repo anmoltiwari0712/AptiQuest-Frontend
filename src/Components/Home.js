@@ -6,11 +6,15 @@ import { useTheme } from "../ThemeContext";
 import { useAuth } from "../store/auth"; // Import useAuth for authentication
 import { baseUrl } from "../url";
 
+import TruckLoader from "./truckloader"; //edit-1
+
 const Home = () => {
   const [topicsWithQuestions, setTopicsWithQuestions] = useState([]);
   const { darkMode } = useTheme();
   const { isLoggedIn } = useAuth();
   const token = localStorage.getItem("token");
+
+  const [loading, setLoading] = useState(true); //edit-1
 
   useEffect(() => {
     const fetchTopicData = async () => {
@@ -71,6 +75,7 @@ const Home = () => {
         paddingBottom: "32px",
       }}
     >
+      <TruckLoader loading={loading} />   //edit-1
       <div style={styles.container}>
         <div
           style={{
