@@ -18,13 +18,13 @@ import vishalimg from "./vishal.jpg";
 const contributors = [
   {
     name: "Anmol Tiwari",
-<<<<<<< HEAD
+
     profile1: "Front-end Specialist | UI/UX Designer",
     profile2:
       "Enthusiastic about creating engaging user interfaces and enhancing front-end experiences.",
-=======
+
     profile: "Software Engineer with a passion for open-source projects.",
->>>>>>> a35771d16f0ee44a162d995a41ba134fd00f423d
+
     image: anmolimg, // Use imported local image
     social: {
       github: "https://github.com/anmoltiwari0712",
@@ -37,13 +37,13 @@ const contributors = [
   },
   {
     name: "Vishal Singh",
-<<<<<<< HEAD
+
     profile1: "Back-end Developer | Deployment Expert",
     profile2:
       "Specializes in robust backend solutions and efficient deployment strategies for scalable applications.",
-=======
+
     profile: "Front-end Developer and UI/UX enthusiast.",
->>>>>>> a35771d16f0ee44a162d995a41ba134fd00f423d
+
     image: vishalimg, // Use imported local image
     social: {
       github: "https://github.com/VishalSingh1703",
@@ -71,12 +71,12 @@ const Contributors = () => {
               className="contributor-image"
             />
             <h3 className="name-head ">{contributor.name}</h3>
-<<<<<<< HEAD
+
             <p>{contributor.profile1}</p>
             <p>{contributor.profile2}</p>
-=======
+
             <p>{contributor.profile}</p>
->>>>>>> a35771d16f0ee44a162d995a41ba134fd00f423d
+
             <div className="social-icons">
               <a
                 href={contributor.social.github}
