@@ -36,6 +36,9 @@ const Home = () => {
       } catch (error) {
         console.error("Error fetching topic data:", error);
       }
+      finally {  // edit - 1
+        setLoading(false); // Set loading to false after fetching data
+      }
     };
 
     fetchTopicData();
