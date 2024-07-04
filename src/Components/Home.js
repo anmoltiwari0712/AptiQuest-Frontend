@@ -6,7 +6,7 @@ import { useTheme } from "../ThemeContext";
 import { useAuth } from "../store/auth"; // Import useAuth for authentication
 import { baseUrl } from "../url";
 
-import TruckLoader from "./truckloader"; //edit-1
+import TruckLoader from "./truckloader"; 
 
 const Home = () => {
   const [topicsWithQuestions, setTopicsWithQuestions] = useState([]);
@@ -14,7 +14,7 @@ const Home = () => {
   const { isLoggedIn } = useAuth();
   const token = localStorage.getItem("token");
 
-  const [loading, setLoading] = useState(true); //edit-1
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     const fetchTopicData = async () => {
@@ -36,7 +36,7 @@ const Home = () => {
       } catch (error) {
         console.error("Error fetching topic data:", error);
       }
-      finally {  // edit - 1
+      finally { 
         setLoading(false); // Set loading to false after fetching data
       }
     };
@@ -78,7 +78,7 @@ const Home = () => {
         paddingBottom: "32px",
       }}
     >
-      <TruckLoader loading={loading} />   //edit-1
+      <TruckLoader loading={loading} />   
       <div style={styles.container}>
         <div
           style={{
