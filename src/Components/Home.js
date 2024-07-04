@@ -43,7 +43,7 @@ const Home = () => {
 
       try {
         const response = await axios.get(
-          `http://localhost:3000/user/progress`,
+          `${baseUrl}/user/progress`,
           { headers: { Authorization: `Bearer ${token}` } }
         );
         const progressData = response.data.progress;
