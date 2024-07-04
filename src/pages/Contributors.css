@@ -1,0 +1,84 @@
+.contributors-page {
+  padding: 20px;
+  min-height: calc(100vh - 100px); /* Adjust to ensure it fills the viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contributors-page.dark {
+  background-color: #191919;
+  color: #ffffff;
+}
+
+.contributors-page.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.contributors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Add gap between the cards */
+}
+
+.contributor-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contributor-card h3 {
+  margin-top: 10px;
+}
+
+.contributor-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.contributor-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  color: #333;
+  font-size: 24px;
+}
+
+.name-head {
+  font-family: "Playwrite NG Modern"; /* Ensure the font is loaded or use a similar web-safe font */
+}
+
+.social-icons a:hover {
+  color: #0073e6;
+}
+
+.contributors-page.dark .contributor-card {
+  background-color: #303030;
+  border-color: #474747;
+}
+
+.contributors-page.dark .contributor-card p {
+  color: #ccc;
+}
+
+.contributors-page.dark .social-icons a {
+  color: #ccc;
+}
