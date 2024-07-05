@@ -143,12 +143,7 @@ const QuestionList = () => {
               style={{ color: darkMode ? "#ccc" : "#000" }}
             >
               Prepare for {currentTopic.title} with our comprehensive resources
-              and practice questions. It is a long established fact that a
-              reader will be distracted by the readable content of a page when
-              looking at its layout. The point of using Lorem Ipsum is that it
-              has a more-or-less normal distribution of letters, as opposed to
-              using 'Content here, content here', making it look like readable
-              English.
+              and practice questions. Our materials include a dedicated formulas section and well-established explanations for each question, ensuring you grasp the concepts thoroughly and excel in solving them. Additionally, we offer step-by-step guides and tips to enhance your problem-solving skills, making even the most complex problems easy to understand.
             </p>
             <Collapse in={isExpanded}>
               <ol
